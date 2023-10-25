@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="dashboard">Armaturenbrett</string>
-  <string name="settings">Einstellungen</string>
-  <string name="menu">Speisekarte</string>
-  <string name="feed">Füttern</string>
-  <string name="events_title">Veranstaltungen</string>
-  <string name="events_see_all">Alle Veranstaltungen anzeigen</string>
-  <string name="events">Veranstaltungen</string>
-  <string name="home">Heim</string>
-  <string name="home_section_name">Heim</string>
-  <string name="home_title">Heim</string>
-  <string name="today_menu">Heutiges Menü</string>
+  <string name="app_name">My Application</string>
+  <string name="android">Android</string>
+  <string name="hello">Hello %1$s!</string>
 </resources>
