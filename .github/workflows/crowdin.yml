@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+- name: Crowdin Actions
+
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  # This workflow contains a single job called "build"
+  translate: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pre-Translate Strings
+      uses: crowdin/github-action@v1.14.0
+      with: 
+        command: 'pre-translate'
+        command_args: '-l de --method mt --branch --auto-approve-option main
