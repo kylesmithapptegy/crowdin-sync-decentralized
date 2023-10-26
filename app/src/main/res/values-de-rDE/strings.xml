@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meine Bewerbung</string>
+    <string name="android">Android</string>
+    <string name="hello">Hallo %1$s!</string>
+</resources>
