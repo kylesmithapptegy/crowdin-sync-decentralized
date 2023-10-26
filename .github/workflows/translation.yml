@@ -8,6 +8,7 @@ on:
 env:
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+  ML_ENGINE_ID: ${{ secrets.ML_ENGINE_ID }}
 
 jobs:
   # This workflow contains a single job called "build"
@@ -29,4 +30,4 @@ jobs:
       uses: crowdin/github-action@v1.14.0
       with: 
         command: 'pre-translate'
-        command_args: '-l de --branch ${{ github.head_ref }} --method mt --engine-id ${{ secrets.ML_ENGINE_ID }}'
+        command_args: '-l de --branch ${{ github.head_ref }} --method mt --engine-id ML_ENGINE_ID'
