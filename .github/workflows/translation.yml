@@ -29,4 +29,4 @@ jobs:
       uses: crowdin/github-action@v1.14.0
       with: 
         command: 'pre-translate'
-        command_args: '-l de --branch main --method mt --engine-id 1'
+        command_args: '-l de --branch ${{ github.head_ref }} --method mt --engine-id 1'
