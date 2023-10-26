@@ -4,4 +4,5 @@
     <string name="android">Android</string>
     <string name="hello">szia %1$s!</string>
     <string name="what_up">Mi újság!?</string>
+    <string name="better_work">Ez jobb munka!</string>
 </resources>

@@ -4,4 +4,5 @@
     <string name="android">安卓</string>
     <string name="hello">你好 %1$s！</string>
     <string name="what_up">怎麼了！？</string>
+    <string name="better_work">這更好的工作！</string>
 </resources>
