@@ -35,7 +35,7 @@ jobs:
       uses: crowdin/github-action@v1.14.0
       with: 
         command: 'pre-translate'
-        command_args: '--method mt --engine-id ${{secrets.ML_ENGINE_ID}} --language de --branch=${{ github.head_ref }}'
+        command_args: '--method mt --engine-id ${{secrets.ML_ENGINE_ID}} --branch=${{ github.head_ref }}'
 
     - name: Pull translations from Crowdin
       uses: crowdin/github-action@v1.14.0
