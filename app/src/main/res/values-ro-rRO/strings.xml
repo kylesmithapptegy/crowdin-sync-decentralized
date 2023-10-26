@@ -4,4 +4,5 @@
     <string name="android">Android</string>
     <string name="hello">Salut %1$s!</string>
     <string name="what_up">Ce s-a întâmplat!?</string>
+    <string name="better_work">Lucrul acesta mai bun!</string>
 </resources>
