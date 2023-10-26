@@ -23,7 +23,7 @@ jobs:
         upload_sources: true
         upload_translations: false
         download_translations: false
-        crowdin_branch_name: ${{ steps.normalize-branch-name.outputs.formatted_branch }}
+        crowdin_branch_name: ${{ github.head_ref }}
 
     - name: Pre-Translate Strings
       uses: crowdin/github-action@v1.14.0
