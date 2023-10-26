@@ -25,7 +25,13 @@ jobs:
         download_translations: false
         crowdin_branch_name: ${{ github.head_ref }}
 
-    - name: Pre-Translate Strings
+    - name: Try to Translate form Memory w/ Crowdin
+      uses: crowdin/github-action@v1.14.0
+      with: 
+        command: 'pre-translate'
+        command_args: '--method tm --auto-approve-option except-auto-substituted --duplicate-translations --branch=${{ github.head_ref }}'
+
+    - name: Machine Translate Strings w/ Crowdin
       uses: crowdin/github-action@v1.14.0
       with: 
         command: 'pre-translate'
