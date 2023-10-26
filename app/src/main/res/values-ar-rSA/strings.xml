@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="android">Android</string>
-    <string name="hello">Hello %1$s!</string>
+    <string name="app_name">طلبي</string>
+    <string name="android">ذكري المظهر</string>
+    <string name="hello">مرحبا %1$s!</string>
+    <string name="what_up">ما يصل!؟</string>
 </resources>
